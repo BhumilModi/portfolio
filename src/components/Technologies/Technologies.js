@@ -1,55 +1,51 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiReact, DiJsBadge, DiCss3 } from 'react-icons/di'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
-const Technologies = () =>  (
-  <Section id="tech">
-    <SectionDivider divider />
-    <SectionTitle>Technologies</SectionTitle>
+const Technologies = () => (
+  <Section id='tech'>
+    <SectionDivider />
+    <br />
+    <SectionTitle> Technologies
+      <br /> </SectionTitle>
+
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I have worked with some of the framework related to Front-End Development.<br />
+      I have Also worked with some styling tools.
     </SectionText>
     <List>
       <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-        </picture>
+        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Worked with <br />
+            React.js and Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiFirebase size="3rem" />
-        </picture>
+        <DiJsBadge size="3rem" />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Language</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            Worked with <br />
+            Javascript and HTML5
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
+        <DiCss3 size="3rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Styling Tools</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+            Worked with <br />
+            CSS3 and TailwindCss
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider colorAlt />
   </Section>
 );
 

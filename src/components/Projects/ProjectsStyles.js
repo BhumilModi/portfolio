@@ -35,14 +35,13 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
 `;
 
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: wheat;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -89,15 +88,16 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color: white;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: transparent;
 border-radius: 15px;
+border : 0.5px solid wheat;
 transition: 0.5s;
 &:hover{
-  background: #801414;
-
+  background: wheat;
+  color : #0F1624;
 }
 `;
 

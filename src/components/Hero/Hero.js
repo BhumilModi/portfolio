@@ -1,24 +1,25 @@
-import React from 'react';
+import React from 'react'
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents'
+import Button from '../../styles/GlobalComponents/Button'
+import { LeftSection } from './HeroStyles'
 
-const Hero = (props) => (
-  <>
-    <Section row nopadding>
+const Hero = (props) => {
+  return (
+    <Section>
       <LeftSection>
-        <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+        <SectionTitle main center >
+          Hello, <br />
+          I am Bhumil Modi <br />
+          And Welcome to my portfolio.
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          The purpose of making this Portfolio is the Showcase the work I have done in Front-End Development. Current I am looking to work as an Intern.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button ><a style={{ color: "white" }} href='https://www.linkedin.com/in/bhumil-modi-430148190/'>Contact Me</a></Button>
       </LeftSection>
     </Section>
-  </>
-);
+  )
+}
 
-export default Hero;
+export default Hero
