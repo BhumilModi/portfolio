@@ -1,21 +1,12 @@
 export const projects = [
   {
-    title: 'weNotes',
-    description: "A static website for a Notes Selling app , based on web3.0 with metamask authentification.",
-    image: '/images/weNotes.png',
-    tags: ['Next.Js', 'JavaScript', 'Tailwind', 'Metamask'],
-    source: 'https://github.com/BhumilModi/WEnotes-Marketplace',
-    visit: 'https://we-notes-marketplace.vercel.app/',
-    id: 0,
-  },
-  {
     title: 'NFT-Marketplace Clone',
     description: "It is a nft marketplace clone running on api of OpenSea testnet , which display NFT collections.",
     image: '/images/marketplace.png',
     tags: ['JavaScript', 'Axios', 'React'],
     source: 'https://github.com/BhumilModi/NFT-Marketplace-Clone',
     visit: 'https://github.com/BhumilModi/NFT-Marketplace-Clone',
-    id: 1,
+    id: 0,
   },
   {
     title: 'Music-App Website',
@@ -24,7 +15,7 @@ export const projects = [
     tags: ['React', 'JavaScript', 'Tailwind', 'Framer-Motion'],
     source: 'https://github.com/BhumilModi/Music-App',
     visit: 'https://music-app-bhumil.vercel.app/',
-    id: 2,
+    id: 1,
   },
   {
     title: 'Twiiter-Web3-clone',
@@ -33,7 +24,7 @@ export const projects = [
     tags: ['React', 'JavaScript', 'Next.js', 'Tailwind', 'Metamask'],
     source: 'https://github.com/BhumilModi/Twitter-clone-web3.0',
     visit: 'https://twitter-clone-web3-0.vercel.app/',
-    id: 3,
+    id: 2,
   },
   {
     title: 'GPT3-Clone',
@@ -42,7 +33,7 @@ export const projects = [
     tags: ['React', 'JavaScript', 'CSS3'],
     source: 'https://github.com/BhumilModi/GPT3-clone',
     visit: 'https://gpt3-clone.vercel.app/',
-    id: 4,
+    id: 3,
   },
   {
     title: 'Rock-Paper-Scissors Game',
@@ -51,6 +42,15 @@ export const projects = [
     tags: ['React', 'JavaScript', 'CSS5'],
     source: 'https://github.com/BhumilModi/Rock-Paper-Scissor-Game',
     visit: 'https://rock-paper-scissor-game-nine.vercel.app/',
+    id: 4,
+  },
+  {
+    title: 'Todo-List',
+    description: "This is one the most basic project which everyone tries while learning Javascript , it is smile todo-list app made while I started doing Javascript and CSS.",
+    image: '/images/todo-list.png',
+    tags: ['HTML5', 'JavaScript', 'CSS3'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
     id: 5,
   },
 ];
