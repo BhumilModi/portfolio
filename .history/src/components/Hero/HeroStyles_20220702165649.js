@@ -19,11 +19,11 @@ export const LeftSection = styled.div`
   }
 `;
 export const Img = styled.img`
-  width:130%; 
+  width:100%; 
   height:45vh;
   object-fit: cover;
   overflow: hidden;
-  object-position: 0 10%; 
+  object-position: 30% 20%; 
 `
 
 export const RightSection = styled.div`
@@ -48,6 +48,7 @@ export const RightSection = styled.div`
 export const ImgSection = styled.div`
   width: 60%;
   height: auto;
+  background: red;
 `
 
 export const MainText = styled.p`

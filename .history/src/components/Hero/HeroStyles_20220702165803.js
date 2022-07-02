@@ -23,7 +23,7 @@ export const Img = styled.img`
   height:45vh;
   object-fit: cover;
   overflow: hidden;
-  object-position: 0 10%; 
+  object-position: 0 80%; 
 `
 
 export const RightSection = styled.div`
@@ -48,6 +48,7 @@ export const RightSection = styled.div`
 export const ImgSection = styled.div`
   width: 60%;
   height: auto;
+  background: red;
 `
 
 export const MainText = styled.p`

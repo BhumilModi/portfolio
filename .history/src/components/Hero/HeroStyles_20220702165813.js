@@ -48,6 +48,7 @@ export const RightSection = styled.div`
 export const ImgSection = styled.div`
   width: 60%;
   height: auto;
+  background: red;
 `
 
 export const MainText = styled.p`

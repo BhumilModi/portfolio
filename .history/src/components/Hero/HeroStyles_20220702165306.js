@@ -19,8 +19,8 @@ export const LeftSection = styled.div`
   }
 `;
 export const Img = styled.img`
-  width:130%; 
-  height:45vh;
+  width:30vw; 
+  height:40vh;
   object-fit: cover;
   overflow: hidden;
   object-position: 0 10%; 
@@ -46,7 +46,7 @@ export const RightSection = styled.div`
 `;
 
 export const ImgSection = styled.div`
-  width: 60%;
+  width: 100%;
   height: auto;
 `
 

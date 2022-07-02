@@ -3,7 +3,7 @@ import React from 'react'
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents'
 import Button from '../../styles/GlobalComponents/Button'
 
-import { LeftSection, RightSection, ImgSection, MainText, Img } from './HeroStyles'
+import { LeftSection, RightSection, ImgSection, MainText, IMG } from './HeroStyles'
 
 const Hero = (props) => {
   return (
