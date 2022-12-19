@@ -39,9 +39,9 @@ export const projects = [
     title: 'Movie-Booking-app',
     description: "A book-my-show clone web app made with MERN stack which shows user details and book movies.",
     image: '/images/movie.png',
-    tags: ['React', 'JavaScript', 'Tailwind'],
-    source: 'https://github.com/BhumilModi/movie-booking-app-assignment',
-    visit: 'https://github.com/BhumilModi/movie-booking-app-assignment',
+    tags: ['React', 'JavaScript', 'Next.js', 'Tailwind', 'Metamask'],
+    source: 'https://github.com/BhumilModi/Twitter-clone-web3.0',
+    visit: 'https://twitter-clone-web3-0.vercel.app/',
     id: 4,
   },
   {

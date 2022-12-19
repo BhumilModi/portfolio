@@ -15,7 +15,7 @@ export const projects = [
     tags: ['Next.Js', 'JavaScript', 'CSS3'],
     source: 'https://github.com/BhumilModi/My-News',
     visit: 'https://get-updated.vercel.app/',
-    id: 1,
+    id: 5,
   },
   {
     title: 'weNotes',
@@ -24,7 +24,7 @@ export const projects = [
     tags: ['Next.Js', 'JavaScript', 'Tailwind', 'Metamask'],
     source: 'https://github.com/BhumilModi/WEnotes-Marketplace',
     visit: 'https://we-notes-marketplace.vercel.app/',
-    id: 2,
+    id: 1,
   },
   {
     title: 'Music-App Website',
@@ -33,16 +33,7 @@ export const projects = [
     tags: ['React', 'JavaScript', 'Tailwind', 'Framer-Motion'],
     source: 'https://github.com/BhumilModi/Music-App',
     visit: 'https://music-app-bhumil.vercel.app/',
-    id: 3,
-  },
-  {
-    title: 'Movie-Booking-app',
-    description: "A book-my-show clone web app made with MERN stack which shows user details and book movies.",
-    image: '/images/movie.png',
-    tags: ['React', 'JavaScript', 'Tailwind'],
-    source: 'https://github.com/BhumilModi/movie-booking-app-assignment',
-    visit: 'https://github.com/BhumilModi/movie-booking-app-assignment',
-    id: 4,
+    id: 2,
   },
   {
     title: 'juice-motion',
@@ -51,16 +42,16 @@ export const projects = [
     tags: ['React', 'JavaScript', 'Tailwind', 'Framer-Motion'],
     source: 'https://github.com/BhumilModi/Framer-motion-Tutorial',
     visit: 'https://juice-motion-app.vercel.app/',
-    id: 5,
+    id: 4,
   },
   {
     title: 'Shop-Cart',
     description: "Shopping app with Json dummy backend.",
-    image: '/images/shopkart.png',
-    tags: ['JavaScript', 'Tailwind', 'React', 'Axios'],
-    source: 'https://github.com/BhumilModi/ShopKart-app',
-    visit: 'https://github.com/BhumilModi/ShopKart-app',
-    id: 6,
+    image: '/images/marketplace.png',
+    tags: ['JavaScript', 'Axios', 'React'],
+    source: 'https://github.com/BhumilModi/NFT-Marketplace-Clone',
+    visit: 'https://github.com/BhumilModi/NFT-Marketplace-Clone',
+    id: 3,
   },
 
   {
@@ -70,9 +61,8 @@ export const projects = [
     tags: ['React', 'JavaScript', 'Next.js', 'Tailwind', 'Metamask'],
     source: 'https://github.com/BhumilModi/Twitter-clone-web3.0',
     visit: 'https://twitter-clone-web3-0.vercel.app/',
-    id: 7,
+    id: 4,
   },
-
 
 ];
 

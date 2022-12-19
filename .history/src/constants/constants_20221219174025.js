@@ -1,20 +1,29 @@
 export const projects = [
   {
+    title: 'Memorize',
+    description: "This is full-stack photo gallery web app which is clone of pinterest.",
+    image: '/images/memorize.png',
+    tags: ['React', 'JavaScript', 'Tailwind', 'Sanity'],
+    source: 'https://github.com/BhumilModi/Memorize',
+    visit: 'https://memorize-photo-app.vercel.app/',
+    id: 0,
+  },
+  {
+    title: 'My-news App',
+    description: "This is news aggregator which shows top 25 news in current time using news api.",
+    image: '/images/news-app.png',
+    tags: ['Next.Js', 'JavaScript', 'CSS3'],
+    source: 'https://github.com/BhumilModi/My-News',
+    visit: 'https://get-updated.vercel.app/',
+    id: 5,
+  },
+  {
     title: 'weNotes',
     description: "A static website for a Notes Selling app , based on web3.0 with metamask authentification.",
     image: '/images/weNotes.png',
     tags: ['Next.Js', 'JavaScript', 'Tailwind', 'Metamask'],
     source: 'https://github.com/BhumilModi/WEnotes-Marketplace',
     visit: 'https://we-notes-marketplace.vercel.app/',
-    id: 0,
-  },
-  {
-    title: 'NFT-Marketplace Clone',
-    description: "It is a nft marketplace clone running on api of OpenSea testnet , which display NFT collections.",
-    image: '/images/marketplace.png',
-    tags: ['JavaScript', 'Axios', 'React'],
-    source: 'https://github.com/BhumilModi/NFT-Marketplace-Clone',
-    visit: 'https://github.com/BhumilModi/NFT-Marketplace-Clone',
     id: 1,
   },
   {
@@ -27,32 +36,25 @@ export const projects = [
     id: 2,
   },
   {
+    title: 'NFT-Marketplace Clone',
+    description: "It is a nft marketplace clone running on api of OpenSea testnet , which display NFT collections.",
+    image: '/images/marketplace.png',
+    tags: ['JavaScript', 'Axios', 'React'],
+    source: 'https://github.com/BhumilModi/NFT-Marketplace-Clone',
+    visit: 'https://github.com/BhumilModi/NFT-Marketplace-Clone',
+    id: 3,
+  },
+
+  {
     title: 'Twiiter-Web3-clone',
     description: "It is static frontend clone of twitter app , made with metamask authenification.",
     image: '/images/twitter.png',
     tags: ['React', 'JavaScript', 'Next.js', 'Tailwind', 'Metamask'],
     source: 'https://github.com/BhumilModi/Twitter-clone-web3.0',
     visit: 'https://twitter-clone-web3-0.vercel.app/',
-    id: 3,
-  },
-  {
-    title: 'GPT3-Clone',
-    description: "This is a static website made wiht the help of a Figma design , made as a practice to learn React.",
-    image: '/images/gpt3-clone.png',
-    tags: ['React', 'JavaScript', 'CSS3'],
-    source: 'https://github.com/BhumilModi/GPT3-clone',
-    visit: 'https://gpt3-clone.vercel.app/',
     id: 4,
   },
-  {
-    title: 'Rock-Paper-Scissors Game',
-    description: "This is a Simple 2 player game made with React , it is one of the project which is designed and made completely from scratch by me , Also it is live at vercel.",
-    image: '/images/rock-paper-scissors.png',
-    tags: ['React', 'JavaScript', 'CSS5'],
-    source: 'https://github.com/BhumilModi/Rock-Paper-Scissor-Game',
-    visit: 'https://rock-paper-scissor-game-nine.vercel.app/',
-    id: 5,
-  },
+
 ];
 
 export const TimeLineData = [
